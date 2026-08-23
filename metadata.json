@@ -1,0 +1,40 @@
+{
+  "team_id": "Helpa",
+  "domain": "healthcare_medical",
+  "language_scope": [
+    "en",
+    "yo"
+  ],
+  "african_alpha_claim": true,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "Somadina Victor",
+    "email": "somadinavictor12@gmail.com",
+    "github_handle": "Yusasif-AI"
+  }, 
+  "cross_disciplinary_pairing": {
+    "discipline": "Emergency Medicine",
+    "load_bearing": true,
+    "description": "Most preventable deaths after an accident happen before the patient reaches a hospital, and in that window the wrong action is worse than none — butter on a burn, a spoon forced into a seizing mouth, venom sucked from a snake bite. The people present are rarely clinicians and often are not operating in English. This assistant gives step-by-step first-aid guidance and symptom triage in Yoruba or English, fully offline on a low-end laptop, because emergencies do not wait for network signal. Emergency medicine is load-bearing rather than decorative: every answer leads with the harmful actions to avoid and ends with when to stop self-treating and reach a hospital."
+  },
+  "test_prompts": [
+    {
+      "prompt_id": "tp_001",
+      "prompt": "A snake bit someone on the leg. What are the first aid steps before we reach a clinic?"
+    },
+    {
+      "prompt_id": "tp_002",
+      "prompt": "Someone is choking on food and cannot breathe or talk. What should I do right now?"
+    }
+  ],
+  "model": {
+    "name": "Helpa-Gemma4-E2B-Q4_K_M",
+    "runtime": "llama.cpp",
+    "quantization": "GGUF Q4_K_M",
+    "parameters_estimate": "2B effective (Gemma 4 E2B)",
+    "packaging": "binary_bundle"
+  },
+  "_runtime": {
+    "model_path": "model/Helpa-Gemma4-E2B-Q4_K_M.gguf"
+  }
+}

@@ -1,1 +1,0 @@
-# Helpa-ADTC
