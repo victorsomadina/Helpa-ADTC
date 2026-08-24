@@ -12,7 +12,7 @@ MODEL_DIR="$HERE/model"
 MODEL_FILE="$MODEL_DIR/Helpa-Gemma4-E2B-Q4_K_M.gguf"
 
 # ── PUBLIC model weight URL ───────────────────────────────────────────────────
-MODEL_URL="https://huggingface.co/yusasif/Helpa-ADTC-challenge/resolve/main/FirstAid-Gemma4-E2B-Q4_K_M.gguf"
+MODEL_URL="https://huggingface.co/yusasif/Helpa-ADTC-challenge/blob/main/Helpa-Gemma4-E2B-Q4_K_M.gguf"
 # ──────────────────────────────────────────────────────────────────────────────
 
 mkdir -p "$MODEL_DIR"
